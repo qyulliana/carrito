@@ -1,0 +1,81 @@
+.container__card{
+    height: 356px;
+    width: 302px;
+    border: none;
+    box-shadow: 1px  1px 8px 0 #FCCAE2;
+    margin-top: 12px;
+
+
+}
+
+.prices__card__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+
+}
+
+.container__iconos__card{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.name_hamburger_card{
+    color: red;
+    padding-left: 4px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: #FCCAE2;
+}
+
+.price_hamburger_card{
+    color: #868686;
+    padding-right: 4px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+}
+
+.paragraph_offer_card{
+    color: #868686;
+    padding-top: 8px;
+    padding-left: 4px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.taste_hamburger_card{
+    color: #868686;
+    padding-left: 4px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.img_card_cuarto_de_libra{
+    transform: scale(1);
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+}
+
+.img_card_cuarto_de_libra:hover{
+    transform: scale(1.1);
+
+
+
+}
+
+.container__iconos__card{
+    margin-top: 8px;
+}
+
+.icono_card_cart{
+    margin-left: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icono_card_arrow{
+    margin-right: 8px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
